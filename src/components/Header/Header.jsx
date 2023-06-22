@@ -11,7 +11,7 @@ function Header() {
 
     //get user data
     const [user] = useAuthState(auth)
-    console.log(user)
+    //console.log(user)
 
     //create array for categories
     const categories = ["Health", "Food", "Travel", "Technology"]

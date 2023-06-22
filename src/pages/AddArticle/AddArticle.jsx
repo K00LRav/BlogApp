@@ -63,7 +63,6 @@ function AddArticle() {
                         createdBy: user.displayName,
                         userId: user.uid,
                         createdAt: Timestamp.now().toDate()
-
                     })
                 }
             )

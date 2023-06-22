@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage/Homepage';
 import Auth from './pages/Auth/Auth';
 import CatergoryArticle from './pages/CategoryArticle/CatergoryArticle';
 import AddArticle from './pages/AddArticle/AddArticle';
+import ArticleDetails from './pages/ArticleDetails/ArticleDetails';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Route path='/addarticle' element={<AddArticle/>} />
       <Route path='/auth' element={<Auth/>} />
       <Route path='/category/:categoryName' element={<CatergoryArticle/>} />
+      <Route path='/article/:articleId' element={<ArticleDetails/>} />
     </Routes>
     </BrowserRouter>
       
